@@ -11530,3 +11530,13 @@ section.resume-section .resume-section-content {
     }
 }
 
+::selection {
+  background: #800000; /* color shown when highlighting tex*/
+  color: white; /* Color of the text when selected */
+}
+
+/* For compatibility with older browsers like IE */
+::-moz-selection {
+  background: #800000;
+  color: white;
+}
